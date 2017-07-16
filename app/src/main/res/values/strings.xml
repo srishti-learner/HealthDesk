@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HealthDesk</string>
+    <string name="start">START</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+
+    <string name="slide_1_title">Tired of long queues?</string>
+    <string name="slide_1_desc">Not Anymore,book appointments right on your phone!</string>
+    <string name="slide_2_title">24/7 convenience</string>
+    <string name="slide_2_desc">Book appointments online even at the middle of night!</string>
+    <string name="slide_3_title">Maintain prescriptions digitally</string>
+    <string name="slide_3_desc">Carry prescriptions in your phone wherever you go!</string>
+
+    <string name="title_activity_signup">Signup</string>
+    <string name="err_msg_password">choose a valid password</string>
+    <string name="err_msg_email_id">choose a valid email Id</string>
+    <string name="err_msg_phone_no">choose a valid phone no.</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="not_registered_yet">not registered yet?</string>
+    <string name="signup">Signup</string>
+    <string name="edit">edit</string>
+    <string name="cancel_appointment">Cancel appointment</string>
+    <string name="enter_phone_no">Enter Mobile No</string>
+    <string name="doctor">Doctor</string>
+    <string name="problem">Problem</string>
+    <string name="choose_appointment_booking_by">Choose appointment booking by:</string>
+    <string name="confirm">confirm</string>
+    <string name="enter_problem_symptoms">Enter problem/symptoms</string>
+    <string name="request">request</string>
+    <string name="enter_request_date">Enter request date(dd/mm/yy)</string>
+    <string name="tests">Tests</string>
+    <string name="aboutText">\nHealthDesk is developed to provide a paper-free methodology for the scheduling of appointments and maintenance of reports. The application appears as a boon in today\'s busy life.
+        \n \n \nThe project was developed for completion of remote internship provided by Tata Consultancy Services.\n \nDevelopers:\n Srishti Sharma\n Somya Maheshwari</string>
+</resources>

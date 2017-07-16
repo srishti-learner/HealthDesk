@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_prescribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <EditText
+            android:id="@+id/prescribe_text"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:hint="Enter prescription/tests"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:text="upload"/>
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:text="Lab tests needed? Notify Lab Assistants."/>
+    <Button
+        android:id="@+id/assistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:text="lab assistant"/>
+
+</LinearLayout>

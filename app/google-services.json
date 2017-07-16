@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "915197670590",
+    "firebase_url": "https://healthdesk-60305.firebaseio.com",
+    "project_id": "healthdesk-60305",
+    "storage_bucket": "healthdesk-60305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915197670590:android:5762024dc2608e47",
+        "android_client_info": {
+          "package_name": "tcsproject.healthdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915197670590-18l7jmar4ujfog574ct5761tkak6p0u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCyDTCF4EhrMYZ7131cB-7-vmUxrQRTTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

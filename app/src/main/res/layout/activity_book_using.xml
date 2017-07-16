@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <TextView
+        android:id="@+id/select"
+        android:textSize="20sp"
+        android:text="@string/choose_appointment_booking_by"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/doctor"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/doctor"
+        android:textColor="@drawable/tex_col"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/problem"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/problem"
+        android:textColor="@drawable/tex_col"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:textSize="30sp"/>
+</LinearLayout>
+
